@@ -403,15 +403,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b364bd8589510d4fbafe4c9693364be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PanelVictory: {fileID: 976135382}
-  PanelDefeat: {fileID: 916329876}
-  A: {fileID: 1027923022}
-  B: {fileID: 1181062568}
-  C: {fileID: 822730431}
-  Timer: {fileID: 1846955195}
-  DrillButton: {fileID: 1836568269}
-  HammerButton: {fileID: 841524862}
-  MasterkeyButton: {fileID: 1887124564}
+  _panelVictory: {fileID: 976135382}
+  _panelDefeat: {fileID: 916329876}
+  _textPinNumber1: {fileID: 1027923022}
+  _textPinNumber2: {fileID: 1181062568}
+  _textPinNumber3: {fileID: 822730431}
+  _timer: {fileID: 1846955195}
+  _drillButton: {fileID: 1836568269}
+  _hammerButton: {fileID: 841524862}
+  _masterkeyButton: {fileID: 1887124564}
+  _restartVictoryButton: {fileID: 2009328111}
+  _restartDefeatButton: {fileID: 2098498587}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,19 +2021,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2009328112}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 414404750}
-        m_TargetAssemblyTypeName: Breaker, Assembly-CSharp
-        m_MethodName: Restart
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2009328112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2309,19 +2299,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2098498588}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 414404750}
-        m_TargetAssemblyTypeName: Breaker, Assembly-CSharp
-        m_MethodName: Restart
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2098498588
 MonoBehaviour:
   m_ObjectHideFlags: 0
